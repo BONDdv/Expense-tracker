@@ -4,8 +4,9 @@
 Financial Tracker API เป็น RESTful API สำหรับจัดการรายรับและรายจ่ายของผู้ใช้ รองรับการเพิ่ม, ลบ, ดูข้อมูลสรุป และดาวน์โหลดไฟล์ Excel ได้  
 
 ## 🚀 Features
-- ✅ **Authentication** - รองรับ JWT Authentication  
+- ✅ **Authentication** - รองรับ JWT Authentication Login/register 
 - ✅ **Expense Management** - เพิ่ม, ลบ, ดูรายการรายจ่าย  
+- ✅ **Income Management** - เพิ่ม, ลบ, ดูรายการรายรับ  
 - ✅ **Summary Report** - ดูสรุปการเงินแบบรวม  
 - ✅ **Excel Export** - ดาวน์โหลดข้อมูลเป็น `.xlsx`  
 - ✅ **Filtering & Search** - ค้นหาและกรองข้อมูลตามวันที่  
@@ -39,11 +40,13 @@ npm start
 npm run dev
 ```
 
-🔗 API Endpoints
-🔑 Authentication
-Method	Endpoint	Description	Auth
-POST	/api/auth/register	สมัครสมาชิก	❌
-POST	/api/auth/login	เข้าสู่ระบบ	❌
+### 🔗 API Endpoints
+## 🔑 Authentication
+Method | Endpoint | Description | Auth
+----- | ----- | ----- | ----- |
+POST | /api/auth/register | สมัครสมาชิก	❌
+POST | /api/auth/login | เข้าสู่ระบบ	❌
+
 💰 Expense Management
 Method	Endpoint	Description	Auth
 POST	/api/expense/addExpense	เพิ่มรายจ่าย	✅
