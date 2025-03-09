@@ -29,15 +29,24 @@ const parseDate = (dateString) => {
 
 const buildDateFilter = (startDate, endDate) => {
     const filter = {};
-    if(startDate && endDate) {
-        filter.date = { $gte: startDate, $lte: endDate};
-    }else if(startDate) {
-        filter.date = { $gte: startDate}
-    }else if(endDate) {
-        filter.date = { $lte: endDate}
+    if (startDate && endDate) {
+        
+        filter.date = { 
+            $gte: new Date(startDate).setHours(0, 0, 0, 0), 
+            $lte: new Date(endDate).setHours(23, 59, 59, 999) 
+        };
+    } else if (startDate) {
+        filter.date = { 
+            $gte: new Date(startDate).setHours(0, 0, 0, 0) 
+        };
+    } else if (endDate) {
+        filter.date = { 
+            $lte: new Date(endDate).setHours(23, 59, 59, 999) 
+        };
     }
     return filter;
 }
+
 
 exports.getSummary = async (req, res) => {
 
