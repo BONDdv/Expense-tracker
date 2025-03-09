@@ -40,6 +40,8 @@ npm start
 npm run dev
 ```
 
+---
+
 ### 🔗 API Endpoints
 ## 🔑 Authentication
 Method | Endpoint | Description | Auth
