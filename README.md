@@ -50,13 +50,21 @@ POST | /api/auth/register | สมัครสมาชิก | ❌
 POST | /api/auth/login | เข้าสู่ระบบ | ❌
 GET | /api/auth/getUser | ดูรายละเอียดผู้ใช้ | ✅
 
-## 💰 Expense Management
+## 💸 Expense Management
 Method| Endpoint | Description | Auth
 ----- | ----- | ----- | ----- |
 POST | /api/expense/addExpense | เพิ่มรายจ่าย | ✅
 GET| /api/expense/getAllExpense | ดูรายการรายจ่าย | ✅
 DELETE | /api/expense/:id | ลบรายการรายจ่าย | ✅
 GET | /api/expense/downloadExpenseExcel | ดาวน์โหลดไฟล์ Excel | ✅
+
+## 💰 Income Management
+Method| Endpoint | Description | Auth
+----- | ----- | ----- | ----- |
+POST | /api/income/addIncome | เพิ่มรายรับ | ✅
+GET| /api/income/getAllIncome | ดูรายการรายรับ | ✅
+DELETE | /api/income/:id | ลบรายการรายรับ | ✅
+GET | /api/income/downloadIncomeExcel | ดาวน์โหลดไฟล์ Excel | ✅
 
 ## 📊 Summary Report
 Method | Endpoint | Description | Auth
