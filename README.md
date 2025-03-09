@@ -15,29 +15,29 @@ Financial Tracker API เป็น RESTful API สำหรับจัดกา
 ## 🛠️ Installation & Setup
 ### 1️⃣ Clone Repository  
 ```bash
-# git clone https://github.com/your-repo/financial-tracker-api.git
-# cd financial-tracker-api
-
+git clone https://github.com/BONDdv/Expense-tracker
+cd backend
+```
 ### 2️⃣ Install Dependencies
 ```bash
 npm install
-
+```
 
 ### 3️⃣ Create .env file
 สร้างไฟล์ .env และกำหนดค่าต่างๆ เช่น
 ```bash
-PORT=5000
+PORT=8001 //หรือตามกำหนด
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
-
+```
 ### 4️⃣ Run Server
 ```bash
 npm start
-
+```
 หรือใช้ nodemon
 ```bash
 npm run dev
-
+```
 
 🔗 API Endpoints
 🔑 Authentication
