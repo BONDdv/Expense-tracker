@@ -9,7 +9,7 @@ Financial Tracker API เป็น RESTful API สำหรับจัดกา
 - ✅ **Income Management** - เพิ่ม, ลบ, ดูรายการรายรับ  
 - ✅ **Summary Report** - ดูสรุปการเงินแบบรวม  
 - ✅ **Excel Export** - ดาวน์โหลดข้อมูลเป็น `.xlsx`  
-- ✅ **Filtering & Search** - ค้นหาและกรองข้อมูลตามวันที่  
+- ✅ **Filtering & Search** - ค้นหาและกรองข้อมูลตามวันที่และค้นหาตามประเภทของ income หรือ expense ได้  
 
 ---
 
