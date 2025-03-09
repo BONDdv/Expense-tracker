@@ -60,6 +60,7 @@ GET | /api/expense/downloadExpenseExcel | ดาวน์โหลดไฟล�
 
 ## 📊 Summary Report
 Method | Endpoint | Description | Auth
+----- | ----- | ----- | ----- |
 GET | /api/summary/getSummary?startDate=YYYY-MM-DD&endDate=YYYY-MM-DD | ดูสรุปการเงิน | ✅
 GET | /api/summary/search?startDate=YYYY-MM-DD&endDate=YYYY-MM-DD&type=income/expense | ค้นหารายการ | ✅
 GET | /api/summary/downloadSummaryExcel?startDate=YYYY-MM-DD&endDate=YYYY-MM-DD | ดาวน์โหลดไฟล์ Excel | ✅
