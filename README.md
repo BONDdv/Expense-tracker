@@ -48,7 +48,7 @@ Method | Endpoint | Description | Auth
 ----- | ----- | ----- | ----- |
 POST | /api/auth/register | สมัครสมาชิก | ✅️
 POST | /api/auth/login | เข้าสู่ระบบ | ✅️
-GET | /api/auth/getUser | ดูรายละเอียดบัญชีผู้ใช้ ✅
+GET | /api/auth/getUser | ดูรายละเอียดบัญชีผู้ใช้ | ✅️
 
 ## 💸 Expense Management
 Method| Endpoint | Description | Auth
